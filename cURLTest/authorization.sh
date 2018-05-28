@@ -1,3 +1,3 @@
 curl -X GET \
   http://localhost:7777/auth/user \
-  -H 'authorization: Bearer 28806ea2-fce7-41a1-90c7-5808845c2096' \
+  -H 'authorization: Bearer f3378722-0e00-451a-8c10-c3763b4fc00d' \
