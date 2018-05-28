@@ -1,7 +1,7 @@
 #Setting the logging levels for the service
 logging:
   level:
-    com.netflix: WARN
+    com.netflix: DEBUG
     org.springframework.web: WARN
     com.gfi.microservicios: DEBUG
 
@@ -16,3 +16,8 @@ eureka:
 
 server:
   contextPath:   /auth
+
+   #Distributed tracing
+spring:
+   zipkin:
+      baseUrl: http://localhost:9411
