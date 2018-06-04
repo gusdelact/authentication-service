@@ -130,20 +130,6 @@
 
 	<profiles>
 		<profile>
-			<id>local</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<dependencies>
-				<dependency>
-					<groupId>com.h2database</groupId>
-					<artifactId>h2</artifactId>
-					<scope>runtime</scope>
-				</dependency>
-
-			</dependencies>
-		</profile>
-		<profile>
 			<id>openshift</id>
 			<dependencies>
 				<dependency>
@@ -152,8 +138,6 @@
 					<version>${postgresql.version}</version>
 					<scope>runtime</scope>
 				</dependency>
-
-
 			</dependencies>
 			<build>
 				<plugins>
